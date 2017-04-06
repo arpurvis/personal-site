@@ -2,14 +2,15 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 body {
         background-color: #fff;
-        font-family: "Trebuchet MS", Helvetica, sans-serif;
-        
-     }
+             font-family: "Trebuchet MS", Helvetica, sans-serif;
+    
+}
+     
 }
 #header{
     background-color: #404040;
     padding-left: 10px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
 }
 #name{
     list-style-type:none;
@@ -19,7 +20,10 @@ body {
 }
 #job-title{
     color: #A1A1A1;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+ul{
+     display: inline;
 }
 nav {width: auto; 
 	padding: 0.5em;
@@ -37,7 +41,10 @@ main {padding: 1em;
      margin-left: 0; 
 	 font-size: 90%;
 	 }
-
+.words{
+    float: right;
+    text-align: right
+}
 h4{
     font-stretch: extra-expanded;
 }
