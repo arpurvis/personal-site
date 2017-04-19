@@ -1,82 +1,54 @@
-
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+}
 body {
         background-color: #fff;
         font-family: "Trebuchet MS", Helvetica, sans-serif;
-
-}
 }
 #header{
     padding-left: 10px;
     background-color: #404040;
     padding-bottom: 1px;
     padding-top: 1px;
-    
 }
 #name{
-    color: #fff;
-    font-size:xx-large;
-    margin-bottom: -25px:
-}
+ color: white;
+ margin-bottom: -20px;
+} 
 #job-title{
-    margin-top: -30px;
-    color: #A1A1A1;
+ padding-top: -20px;
 }
-
-nav {width: auto;
+nav{
+     background-color: #F6F2EF
      height: 113px ;
-     background-color: #F6F2EF;
      display: flex;
-     margin-bottom: -25px;
+     justify-content: space-between;
 }
-nav li{display: inline;
-      padding: 1em; 
+li{
+  display: inline;
+  list-style-type: none;
 }
-nav a {
-       color: #A1A1A1;
-       text-decoration: none;
-}
-main{
-     margin-left: 0; 
-	 font-size: 90%;
-	 }
 .icons{
     margin-top: 42px;
     padding-left: 0;
-    
-}	 
+}
 .words{
     margin-top: 42px;
-    text-align: right
+    text-align: right;
 }
-
-.articles{
-    width: auto;
-    height: 30px;
-    vertical-align: middle;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    color: #A1A1A1;
-    padding-left: 10px;
+a{
+color: #A1A1A1;
 }
-p{
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    color: #A1A1A1;
+a:hover{
+color: red;
 }
-div{
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-
+@media (min-width: 481px) {
+#div1{
+     background-color: #F6F2EF
+     height: 113px ;
+     display: flex;
 }
-#needed{
-    margin-top: -15px;
+#icons{
+ 
 }
-@media (min-width: 570px) {
-   #div1{
-       display: flex;
-       justify-content: space-around;
-   } 
-   ul{
-      display: flex;
-   }
-   
 }
-
