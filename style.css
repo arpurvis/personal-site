@@ -17,6 +17,13 @@ body {
 #job-title{
  padding-top: -20px;
 }
+h2{
+   text-align: center;
+   color: #A1A1A1;
+}
+fieldset{
+background-color: #F3F2F0;
+}
 nav{
      display: flex;
      background-color: #F6F2EF;
