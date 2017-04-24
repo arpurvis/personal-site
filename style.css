@@ -9,6 +9,7 @@ body {
     background-color: #404040;
     padding-bottom: 1px;
     padding-top: 1px;
+    
 }
 #name{
  color: white;
@@ -23,6 +24,14 @@ h2{
 }
 fieldset{
 background-color: #F3F2F0;
+
+}
+legend{
+ font-size: x-large;
+}
+.required{
+  color: red;
+
 }
 nav{
      display: flex;
@@ -68,10 +77,11 @@ a:hover{
     }
     #name{
         color: #A1A1A1;
-    
     }
     .articles{
          text-align: center;
-        
-    
     }
+li{
+        display: block;
+        list-style-type: circle;
+}
